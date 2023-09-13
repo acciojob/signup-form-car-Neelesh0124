@@ -16,38 +16,35 @@
 	<!-- the entire body must be written by student -->
 	<form >
 		<h2>Registration Form</h2>
-		<input required id="name"type="text" name="name" placeholder="Name">
-		<br><br>
-		<input required type="email" name="email" placeholder="Email"><br><br>
-		<lable for="gender_m">
+		<label for="name">
+		<input required id="name" type="text" name="name" placeholder="Name">
+		</label><br><br>
+		<label for="email">
+		<input required type="email" id="email" name="email" placeholder="Email">
+		</label><br><br>
+		<label for="gender_m">
 		<input required type="radio" value="Male" name="gender" id="gender_m">Male
-		</lable>
-		<lable for="gender_f">
+		</label>
+		<label for="gender_f">
 		<input required type="radio" value="Female" name="gender" id="gender_f">Female
-		</lable>
-		<lable for="gender_O">
+		</label>
+		<label for="gender_O">
 		<input required type="radio" value="Other" name="gender" id="gender_O">Other
-	   <br><br>	
-		<label for="cars">Car Brand :</label>
-			
-		<select required id="cars" >
+		</label><br><br>
+		<label id="cars">Car Brand :</label>
+			<select required id="cars">
 			<option>--Please choose an option--</option>
 			
 			<option value="Audi">Audi</option>
 			<option value="Lambo">Lambo</option>
 			<option value="Safari">Safari</option>
 			<option value="Mclaren">McLaren</option>
-		</select>
-		<br><br>
-		<input required type="number" name="age "id="age" placeholder="Age" >
-		<br><br>
+		</select><br><br>
+		<input required type="number" name="age "id="age" placeholder="Age" ><br><br>
 		<input type="date" required> <br><br>
-		<input type="tel" name="telephone"id="tel" placeholder="xxx-xxx-xxxx" >
-		<br><br>
-		<input required type="password" name="pass"id="pass" placeholder="password">
-			<br><br>
-		<input required type="checkbox" id="tos" placeholder="password">I agree to the TOS
-		<br><br>
+		<input type="tel" name="telephone"id="tel" placeholder="xxx-xxx-xxxx" ><br><br>
+		<input required type="password" name="pass"id="pass" placeholder="password"><br><br>
+		<input required type="checkbox" id="tos" placeholder="password">I agree to the TOS <br><br>
 		
 		<input type="submit">
 		
